@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FileDataAccess.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<FileDataAccessDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *progreso;
 
+-(IBAction)descargar:(id)sender;
 @end

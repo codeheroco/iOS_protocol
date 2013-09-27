@@ -21,6 +21,7 @@
 		3C7885CE17F512D800224540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7885B017F512D800224540 /* UIKit.framework */; };
 		3C7885D617F512D800224540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C7885D417F512D800224540 /* InfoPlist.strings */; };
 		3C7885D817F512D800224540 /* ProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7885D717F512D800224540 /* ProtocolTests.m */; };
+		3C7885E617F52AD300224540 /* FileDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7885E517F52AD300224540 /* FileDataAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		3C7885D317F512D800224540 /* ProtocolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtocolTests-Info.plist"; sourceTree = "<group>"; };
 		3C7885D517F512D800224540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C7885D717F512D800224540 /* ProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolTests.m; sourceTree = "<group>"; };
+		3C7885E417F52AD300224540 /* FileDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataAccess.h; sourceTree = "<group>"; };
+		3C7885E517F52AD300224540 /* FileDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDataAccess.m; sourceTree = "<group>"; };
+		3C7885E717F5323E00224540 /* FileDataAccessDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataAccessDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				3C7885C217F512D800224540 /* ViewController.m */,
 				3C7885C417F512D800224540 /* Images.xcassets */,
 				3C7885B317F512D800224540 /* Supporting Files */,
+				3C7885E817F5379F00224540 /* Descraga */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -150,6 +155,16 @@
 				3C7885D417F512D800224540 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7885E817F5379F00224540 /* Descraga */ = {
+			isa = PBXGroup;
+			children = (
+				3C7885E417F52AD300224540 /* FileDataAccess.h */,
+				3C7885E517F52AD300224540 /* FileDataAccess.m */,
+				3C7885E717F5323E00224540 /* FileDataAccessDelegate.h */,
+			);
+			name = Descraga;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +267,7 @@
 				3C7885C317F512D800224540 /* ViewController.m in Sources */,
 				3C7885BD17F512D800224540 /* AppDelegate.m in Sources */,
 				3C7885B917F512D800224540 /* main.m in Sources */,
+				3C7885E617F52AD300224540 /* FileDataAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
